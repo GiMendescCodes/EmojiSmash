@@ -15,7 +15,7 @@ import domtoimage from 'dom-to-image';
 import ImageViewer from "./components/ImageViewer";
 import Button from "./components/Button";
 
-const PlaceholderImage = require("./assets/images/background-image.png");
+const PlaceholderImage = require("./assets/imagens/background-image.png");
 
 export default function App() {
   const pickImageAsync = async () => {
