@@ -89,7 +89,7 @@ export default function App() {
 
   return (
     <GestureHandlerRootView style={styles.container}>
-       <View style={styles.imageContainer}>
+      <View style={styles.imageContainer}>
         <View ref={imageRef} collapsable={false} style={{ backgroundColor: 'transparent' }} >
           <ImageViewer placeholderImageSource={PlaceholderImage} selectedImage={selectedImage} />
           {pickedEmoji && <EmojiSticker imageSize={40} stickerSource={pickedEmoji} />}
